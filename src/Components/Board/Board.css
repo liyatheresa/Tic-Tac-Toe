@@ -1,0 +1,34 @@
+.cells {
+  display: grid;
+  grid-template-columns: repeat(3, 5rem);
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  gap: 1rem;
+}
+.player-info {
+  display: flex;
+  justify-content: center;
+  color: #444;
+  font-weight: bold;
+}
+.reset-button {
+  min-height: 2rem;
+  min-width: 4rem;
+}
+.score-board {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+.score-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
