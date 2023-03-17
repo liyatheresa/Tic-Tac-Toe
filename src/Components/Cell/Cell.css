@@ -1,0 +1,17 @@
+.individual-cell {
+  height: 5rem;
+  width: 5rem;
+  background-color: #888;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+.blue-color-text {
+  color: blue;
+}
+.red-color-text {
+  color: red;
+}
